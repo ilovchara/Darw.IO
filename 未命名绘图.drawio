@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="8">
   <diagram name="STG Game Architecture" id="2_dH7Gha-qrLDw0nbdTG">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
         <mxCell id="7MYmRwEFgoFABjWjGoOq-34" value="按钮" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7MYmRwEFgoFABjWjGoOq-35" value="控制" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" parent="1" source="7MYmRwEFgoFABjWjGoOq-8" target="7MYmRwEFgoFABjWjGoOq-32" edge="1">
+        <mxCell id="7MYmRwEFgoFABjWjGoOq-35" value="绘制" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" parent="1" source="7MYmRwEFgoFABjWjGoOq-8" target="7MYmRwEFgoFABjWjGoOq-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="60" as="sourcePoint" />
             <mxPoint x="440" y="40" as="targetPoint" />
@@ -230,7 +230,7 @@
           <mxGeometry x="840" y="180" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FG1QYczB5zocvL5G4_sW-1" value="得分管理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="-15" width="120" height="80" as="geometry" />
+          <mxGeometry x="840" y="-20" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FG1QYczB5zocvL5G4_sW-3" value="敌人生成模块" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="-120" width="120" height="80" as="geometry" />
@@ -447,6 +447,44 @@
           <mxGeometry x="0.0485" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7A3v8PuuNLKp6RtB5rzX" name="第 8 页">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-1" value="大画布" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="139" y="200" width="550" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-3" value="玩家血条和能量条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-4" value="玩家得分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="119" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-5" value="玩家顶血条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="119" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="244.5" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-9" value="敌人顶血条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555.5" y="300" width="119" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-10" value="BOSS出现血条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-11" value="掉落物UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-12" value="血条能量百分比" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
