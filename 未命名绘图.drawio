@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="7">
   <diagram name="STG Game Architecture" id="2_dH7Gha-qrLDw0nbdTG">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,6 +360,92 @@
         <mxCell id="wbizzvYOox3sGjmv5gyS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="wbizzvYOox3sGjmv5gyS-2" target="wbizzvYOox3sGjmv5gyS-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="414" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3CBd3_jaOqxvMzz3qhu4" name="第 7 页">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="op86_308y5rY-vRb1Fg8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="op86_308y5rY-vRb1Fg8-1" target="op86_308y5rY-vRb1Fg8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-1" value="游戏开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="op86_308y5rY-vRb1Fg8-2" target="op86_308y5rY-vRb1Fg8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-2" value="Playing状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="180" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-4" value="启用GamePlay场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-6" value="启用Paused窗口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-7" value="Paused状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="330" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="op86_308y5rY-vRb1Fg8-4" target="op86_308y5rY-vRb1Fg8-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="250" as="sourcePoint" />
+            <mxPoint x="408" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="op86_308y5rY-vRb1Fg8-7" target="op86_308y5rY-vRb1Fg8-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-12" value="UnPaused状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="op86_308y5rY-vRb1Fg8-6" target="op86_308y5rY-vRb1Fg8-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="370" as="sourcePoint" />
+            <mxPoint x="640" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="op86_308y5rY-vRb1Fg8-12" target="op86_308y5rY-vRb1Fg8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="340" as="sourcePoint" />
+            <mxPoint x="605" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="op86_308y5rY-vRb1Fg8-4" target="op86_308y5rY-vRb1Fg8-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="398" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="op86_308y5rY-vRb1Fg8-16" target="op86_308y5rY-vRb1Fg8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-16" value="GameOver状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="450" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-17" value="启用GameScore场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="op86_308y5rY-vRb1Fg8-17" target="op86_308y5rY-vRb1Fg8-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="260" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="570" />
+              <mxPoint x="220" y="114" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="op86_308y5rY-vRb1Fg8-20" value="重新启用游戏开始UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="op86_308y5rY-vRb1Fg8-19">
+          <mxGeometry x="0.0485" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
