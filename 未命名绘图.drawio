@@ -501,21 +501,6 @@
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-18" value="退出游戏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="367" y="790" width="94" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-19" value="主界面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="900" y="600" width="220" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-20" value="界面标题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="610" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-21" value="游戏开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="650" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-22" value="积分排行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="680" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-23" value="退出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="710" width="80" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-24" value="暂停菜单界面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="139" y="970" width="550" height="290" as="geometry" />
         </mxCell>
@@ -528,64 +513,64 @@
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-29" value="退出游戏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="1110" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-31" value="暂停菜单界面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="1486" y="920" width="220" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-32" value="取消暂停" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1546" y="950" width="97.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-33" value="积分排行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1546" y="980" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-34" value="退出游戏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1546" y="1010" width="97.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-35" target="UhBUQYR0yvQ6l6IOyt66-31">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.396;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-42" target="UhBUQYR0yvQ6l6IOyt66-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1596" y="920" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-49" value="Tab调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="UhBUQYR0yvQ6l6IOyt66-48">
           <mxGeometry x="-0.1448" y="-2" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-88" value="Tab调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="UhBUQYR0yvQ6l6IOyt66-48">
+          <mxGeometry x="-0.1448" y="-2" relative="1" as="geometry">
+            <mxPoint x="85" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-35" value="大画布" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="1291" y="545" width="610" height="290" as="geometry" />
+          <mxGeometry x="1490" y="560" width="610" height="290" as="geometry" />
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-36" value="玩家血条和能量条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1291" y="545" width="190" height="40" as="geometry" />
+          <mxGeometry x="1490" y="560" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-37" value="玩家得分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1752" y="545" width="119" height="40" as="geometry" />
+          <mxGeometry x="1951" y="560" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-38" value="玩家顶血条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1382" y="645" width="119" height="40" as="geometry" />
+          <mxGeometry x="1581" y="660" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-39" value="Player" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1426.5" y="685" width="30" height="60" as="geometry" />
+          <mxGeometry x="1625.5" y="700" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-40" value="Enemy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1782" y="685" width="30" height="60" as="geometry" />
+          <mxGeometry x="1981" y="700" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-41" value="敌人顶血条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1737.5" y="645" width="119" height="40" as="geometry" />
+          <mxGeometry x="1936.5" y="660" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-42" value="BOSS出现血条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1461" y="795" width="270" height="40" as="geometry" />
+          <mxGeometry x="1660" y="810" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-43" value="掉落物UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1331" y="585" width="40" height="40" as="geometry" />
+          <mxGeometry x="1530" y="600" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-44" value="血条能量百分比" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1291" y="585" width="40" height="40" as="geometry" />
+          <mxGeometry x="1490" y="600" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UhBUQYR0yvQ6l6IOyt66-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.399;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-21" target="UhBUQYR0yvQ6l6IOyt66-35">
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.399;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-76" target="UhBUQYR0yvQ6l6IOyt66-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1380" y="790" as="sourcePoint" />
+            <mxPoint x="1050" y="661.6900196326278" as="sourcePoint" />
             <mxPoint x="1260" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-47" value="转跳" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="UhBUQYR0yvQ6l6IOyt66-45">
           <mxGeometry x="-0.1084" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-82" value="转跳" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="UhBUQYR0yvQ6l6IOyt66-45">
+          <mxGeometry x="0.4508" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -615,6 +600,89 @@
         </mxCell>
         <mxCell id="UhBUQYR0yvQ6l6IOyt66-59" value="退出" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="579.5" y="1510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-60" value="积分界面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="780" y="990" width="550" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-61" value="得分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="1000" width="129" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-62" value="名字列表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="925" y="1050" width="129" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-63" value="玩家名字" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="925" y="1000" width="129" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-64" value="名字列表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="1050" width="129" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-65" value="排名" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="810.5" y="1000" width="79.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-66" value="排名列表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="810.5" y="1050" width="80" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-67" target="UhBUQYR0yvQ6l6IOyt66-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="910" />
+              <mxPoint x="1270" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-67" value="回主菜单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1219.5" y="1100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-68" target="UhBUQYR0yvQ6l6IOyt66-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-68" value="退出" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1219.5" y="1150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-69" value="暂停菜单界面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="990" width="550" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-70" value="取消暂停" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1707" y="1060" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-71" value="积分排行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1707" y="1100" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-72" target="UhBUQYR0yvQ6l6IOyt66-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-72" value="退出游戏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1705" y="1140" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-74" value="主菜单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="780" y="560" width="550" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-75" value="界面标题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="994" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-76" value="游戏开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1007" y="680" width="94" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-77" value="积分排行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1007" y="710" width="94" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-78" target="UhBUQYR0yvQ6l6IOyt66-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-78" value="退出游戏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1007" y="740" width="94" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-71" target="UhBUQYR0yvQ6l6IOyt66-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="1010" as="sourcePoint" />
+            <mxPoint x="1580" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-81" value="游戏结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UhBUQYR0yvQ6l6IOyt66-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.702;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UhBUQYR0yvQ6l6IOyt66-70" target="UhBUQYR0yvQ6l6IOyt66-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
