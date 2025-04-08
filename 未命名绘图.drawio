@@ -701,6 +701,9 @@
         <mxCell id="2sHYMzbhxH2Dyv4WPEoL-3" value="&lt;b&gt;(0,0)&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aOA69vT22-vju-GkESoj-1">
           <mxGeometry x="250" y="735" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2sHYMzbhxH2Dyv4WPEoL-4" value="&lt;b&gt;(0&lt;/b&gt;&lt;div&gt;&lt;b&gt;.5,0.5)&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aOA69vT22-vju-GkESoj-1">
+          <mxGeometry x="470" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
